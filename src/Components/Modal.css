@@ -1,0 +1,38 @@
+
+.Modal_styles { 
+    text-align: center;
+    position:fixed;
+    top: 50%;
+    left:60%;
+    width: 30rem;
+    max-height: 100vh;
+    min-height: 40rem;
+    transform:translate(-50%, -50%);
+    background-color:#FFF;
+    z-Index: 1000;
+    display: flex;
+    flex-direction: column;
+}
+
+.Overlay_Styles {
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color: rgba(0,9,9, .7); 
+}
+
+
+.button_Style {
+    padding:5px;
+    background-color:unset;
+    border:none;
+    border-bottom:1px solid black;
+    margin-bottom:1rem;
+}
+
+.button_Style:hover {
+  color:red;  
+}
+

@@ -1,0 +1,29 @@
+
+
+.titleButton{
+  
+        background-color: unset;
+        color: white;
+        border:unset;
+        border-bottom: 1px solid black;
+        cursor: pointer;
+        font-size: 15px;
+        padding-bottom:5px;
+        margin:2rem;
+}
+
+  
+.titleButton:hover{
+    border-bottom:2px solid black;
+    color:yellow;
+}
+
+.moviebox{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.characters{
+    max-height: 80%;
+}

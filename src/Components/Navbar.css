@@ -1,0 +1,16 @@
+
+nav{
+    width: 20rem;
+    border-bottom: 2px solid black;
+    text-align: center;
+    display: flex;
+    justify-content:space-around;
+}
+
+.linkStyle{
+    text-decoration: none;
+    color:black;
+    font-size: 25px;
+    font-weight: bold;
+}
+

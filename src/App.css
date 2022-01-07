@@ -1,0 +1,36 @@
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://th.bing.com/th/id/R.249d62e8d70ba8102508ee46714c935e?rik=gHqKQA1sgd5rDA&pid=ImgRaw&r=0");  
+}
+
+.startpage{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.navbarSpace{
+    flex:1;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 1rem;
+}
+.contentSpace{
+    flex:1;
+    display: flex;
+    align-items: center;
+}
+
+.narrowItDown{
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0000005c;
+    width: 25rem;
+    height: 40rem;
+}
