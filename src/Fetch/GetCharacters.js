@@ -17,6 +17,7 @@ const GetCharacters = (props) => {
     const promises = props.film.characters.map((url)=>
     fetch(url).then((res) => res.json())); 
     //Hämtar karaktärslänkarna
+    console.log(characters)
     
     useEffect(() => {
         Promise.all(promises).then((res) => { 
@@ -24,6 +25,7 @@ const GetCharacters = (props) => {
             setLoading(false) 
         })    
     },[isOpen]);
+  
     //"öppnar" upp/hämtar länkarna
     
     //-------------------- Ovanför fetch , nedanför visar vi först filmtitel & utgivningsdatum i en knapp --------------------------//

@@ -7,16 +7,10 @@ const FetchFilms = () => {
 
   useEffect(() => {
     async function fetchFilms() {
-
-      try {
         let response = await fetch("https://swapi.dev/api/films/");
         let data = await response.json();
         setFilms(data.results);
         setLoading(false);
-
-      } catch (error) {
-        console.log("error");
-      }
     }
     fetchFilms();
   },[]);
